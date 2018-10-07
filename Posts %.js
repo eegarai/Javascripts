@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){t='[title*="Posts"]';u=' table[summary] tr td[class][nowrap="nowrap"]'+t+' table'+t;jQuery('.module'+u+',table.forumline[width="85%"][border="1"] tr td'+u).parent().each(function(){jQuery(this).html(jQuery(this).attr('title').replace('Posts','---'))})});

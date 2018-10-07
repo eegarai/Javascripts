@@ -1,0 +1,1 @@
+$(function(){var post=$('.post .content')[0];var reg=/<strong>First topic message reminder&nbsp;:<\/strong><br><br>/;if(reg.test(post.innerHTML))post.innerHTML=post.innerHTML.replace(reg,'<strong>*&nbsp;தலைப்புச் செய்தி - நினைவூட்ட&nbsp;:<\/strong><br><br>')});

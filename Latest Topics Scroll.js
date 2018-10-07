@@ -1,0 +1,1 @@
+function actualizarUT(){$("#widget-ultimos-temas").find("img[src='https://i.imgur.com/yuXLlhL.png']").attr("src","https://i.imgur.com/8lh9Zm1.gif");$("#widget-ultimos-temas").load(location.pathname+" #widget-ultimos-temas",function(){$("#widget-ultimos-temas").replaceWith($("#widget-ultimos-temas").html())})}

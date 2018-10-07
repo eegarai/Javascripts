@@ -1,0 +1,1 @@
+jQuery(function(){if(_userdata.tpl_mobile)return;var x=document.getElementById('i_whosonline').nextSibling;x.innerHTML=x.innerHTML.replace(/Users having a birthday today :/g,"உங்கள் அனைவருக்கும் ஈகரையின் இனிய பிறந்த நாள் வாழ்த்துகள்:")});

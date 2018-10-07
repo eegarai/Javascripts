@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".postbody:contains('Last edited by'), .gensmall:contains('Last edited by')").each(function(index){var a=jQuery(this).html().split("Last edited by")[0];var b=jQuery(this).html().split("Last edited by")[1];var c="<p class='edit'>Last edited by"+b+"</p>";jQuery(this).html(a+c)})});

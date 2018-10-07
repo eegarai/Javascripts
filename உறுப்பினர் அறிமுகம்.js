@@ -1,0 +1,1 @@
+jQuery(function(){if(document.location.href.indexOf('/post?f=1&mode=newtopic')>-1){jQuery('#text_editor_textarea').text('பெயர்:\nசொந்த ஊர்:\nஆண்/பெண்:\nஈகரையை அறிந்த விதம்:\nபொழுதுபோக்கு:\nதொழில்:\nமேலும் என்னைப் பற்றி:')}});
